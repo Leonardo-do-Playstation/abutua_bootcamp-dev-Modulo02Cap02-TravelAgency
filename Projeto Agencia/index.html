@@ -216,9 +216,9 @@
       </p>
     </div>
     <div class="row justify-content-center g-5">
-      <div class="col-md-3">
-        <div class="card h-100">
-          <img src="images/balao.jpg" class="card-img-top shadow-lg img-fluid" alt="balao">
+      <div class="col-md-3 d-flex">
+        <div class="card h-100 d-flex flex-column shadow-lg">
+          <img src="images/balao.jpg" class="card-img-top img-fluid" alt="balao">
           <div class="card-body">
             <h5 class="card-title">Passeio de Balão</h5>
             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, numquam.</p>
@@ -227,15 +227,15 @@
             <li class="list-group-item">A partir de R$ 90,00</li>
             <li class="list-group-item">Tire fotos incríveis!</li>
           </ul>
-          <div class="card-body">
+          <div class="card-body text-center">
             <a href="#" class="btn btn-primary">Reserve já</a>
           </div>
         </div>
       </div>
 
-      <div class="col-md-3">
-        <div class="card h-100">
-          <img src="images/lancha.jpg" class="card-img-top shadow-lg img-fluid" alt="lancha">
+      <div class="col-md-3 d-flex ">
+        <div class="card h-100 d-flex flex-column shadow-lg">
+          <img src="images/lancha.jpg" class="card-img-top img-fluid" alt="lancha">
           <div class="card-body">
             <h5 class="card-title">Passeio de Lancha</h5>
             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, numquam.</p>
@@ -244,15 +244,15 @@
             <li class="list-group-item">A partir de R$ 190,00</li>
             <li class="list-group-item">Visite lugares secretos!</li>
           </ul>
-          <div class="card-body">
+          <div class="card-body text-center">
             <a href="#" class="btn btn-primary">Reserve já</a>
           </div>
         </div>
       </div>
 
-      <div class="col-md-3">
-        <div class="card h-100">
-          <img src="images/cavalo.jpg" class="card-img-top shadow-lg img-fluid" alt="cavalo">
+      <div class="col-md-3 d-flex">
+        <div class="card h-100 d-flex flex-column shadow-lg">
+          <img src="images/cavalo.jpg" class="card-img-top img-fluid" alt="cavalo">
           <div class="card-body">
             <h5 class="card-title">Passeio de Cavalo</h5>
             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, numquam.</p>
@@ -261,15 +261,15 @@
             <li class="list-group-item">A partir de R$ 70,00</li>
             <li class="list-group-item">Explore a natureza!</li>
           </ul>
-          <div class="card-body">
+          <div class="card-body text-center">
             <a href="#" class="btn btn-primary">Reserve já</a>
           </div>
         </div>
       </div>
 
-      <div class="col-md-3">
-        <div class="card h-100">
-          <img src="images/bicicleta.jpg" class="card-img-top shadow-lg img-fluid" alt="bicicleta">
+      <div class="col-md-3 d-flex">
+        <div class="card h-100  d-flex flex-column shadow-lg">
+          <img src="images/bicicleta.jpg" class="card-img-top img-fluid" alt="bicicleta">
           <div class="card-body">
             <h5 class="card-title">Passeio de Bicicleta</h5>
             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, numquam.</p>
@@ -278,12 +278,51 @@
             <li class="list-group-item">A partir de R$ 40,00</li>
             <li class="list-group-item">Trilhas para todos os gostos!</li>
           </ul>
-          <div class="card-body">
+          <div class="card-body text-center">
             <a href="#" class="btn btn-primary">Reserve já</a>
           </div>
         </div>
       </div>
     </div>
+
+    <!--Title and subtitle formulario-->
+    <div class="row mt-5">
+      <div class="col mt-4">
+        <div class="display-6">
+          Peça uma cotação!
+        </div>
+        <p>
+          Veja como é fácil realizar os seus sonhos!
+        </p>
+      </div>
+    </div>
+
+    <form class="row g-3 text-start">
+      <div class="col-8 offset-2">
+        <label for="inputNome" class="form-label">Nome:</label>
+        <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+      </div>
+      <div class="col-8 offset-2 col-md-4">
+        <label for="inputEmail" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+      <div class="col-8 offset-2 col-md-4 offset-md-0">
+        <label for="inputTelefone" class="form-label">Telefone:</label>
+        <input type="text" class="form-control" id="inputTelefone" placeholder="Telefone">
+      </div>
+      <div class="col-8 offset-2">
+        <label for="inputAssunto" class="form-label">Assunto:</label>
+        <input type="text" class="form-control" id="inputAssunto" placeholder="Assunto">
+      </div>
+      <div class="col-8 offset-2">
+        <label for="inputMensagem" class="form-label">Mensagem:</label>
+        <textarea class="form-control" id="inputMensagem" rows="3"></textarea>
+      </div>
+
+      <div class="d-grid col-6 mx-auto">
+      <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
 
   </div>
 
